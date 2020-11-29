@@ -1,0 +1,9 @@
+.idea/
+backend/server/apps/endpoints/__pycache__/
+backend/server/apps/endpoints/migrations/
+backend/server/apps/ml/__pycache__/
+backend/server/apps/ml/income_classifier/__pycache__/
+backend/server/db.sqlite3
+research/.ipynb_checkpoints/
+venv/
+backend/server/server/__pycache__/
