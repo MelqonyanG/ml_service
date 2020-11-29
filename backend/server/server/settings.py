@@ -25,7 +25,7 @@ SECRET_KEY = '2x*f_b8c3tv0gt5-yh&#f#@ej!u5+h=&hmnu)hlt*o!ogw_4c&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # apps
     'apps.endpoints',
     'apps.ml',
+    'docs',
 ]
 
 MIDDLEWARE = [
@@ -121,4 +122,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
